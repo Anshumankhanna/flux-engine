@@ -1,0 +1,58 @@
+{
+  "company": {
+    "name": "Example Manufacturing Ltd",
+    "ticker": "EXAMPLE",
+    "currency": "INR",
+    "industry": "Manufacturing"
+  },
+  "income_statement": {
+    "revenue": 100000,
+    "ebit": 120000000,
+    "ebitda": 160000000,
+    "net_income": 75000000,
+    "interest_expense": 20000000,
+    "cogs": 650000000,
+    "operating_expenses": 190000000
+  },
+  "balance_sheet": {
+    "cash": 150000000,
+    "current_assets": 450000000,
+    "current_liabilities": 320000000,
+    "total_assets": 1200000000,
+    "total_debt": 300000000,
+    "equity": 500000000,
+    "inventory": 100000000,
+    "accounts_receivable": 120000000,
+    "accounts_payable": 80000000
+  },
+  "cash_flow": {
+    "operating_cash_flow": 110000000,
+    "capex": 50000000
+  },
+  "working_capital": {
+    "accounts_receivable": 1200,
+    "inventory": 100000000,
+    "accounts_payable": 80000000
+  },
+  "debt": {
+    "total_debt": 300000000,
+    "interest_rate": 0.08
+  },
+  "market": {
+    "fx_exposure": {
+      "USD": {
+        "liability": 2000000,
+        "rate_to_reporting_currency": 83.0
+      }
+    }
+  },
+  "scenario": {
+    "revenue_change_pct": -0.1,
+    "operating_cost_change_pct": 0.05,
+    "interest_rate_change_pct": 0.02,
+    "fx_change_pct": 0.05,
+    "receivable_delay_days": 30,
+    "inventory_change_pct": 0.1,
+    "capex_change_pct": 0.1
+  }
+}
